@@ -1,0 +1,17 @@
+p Submit a file to get the filesize
+|
+form(
+    id="test_form"
+    method='POST'
+    action='/results'
+    enctype="multipart/form-data"
+  )
+  input(
+    id="test"
+    name="file"
+    type="file"
+  )
+  button(
+    type="submit"
+  )
+    span Submit

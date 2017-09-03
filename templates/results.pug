@@ -1,0 +1,8 @@
+p File: #{payload.fileName || null}
+p Size: #{payload.fileSize} bytes
+  if !!payload.fileSizeConverted
+    span &nbsp;(#{payload.fileSizeConverted})
+a(
+  href="/uploader"
+)
+  span Go again
