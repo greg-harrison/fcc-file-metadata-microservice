@@ -1,0 +1,23 @@
+{
+  "name": "fcc-file-metadata-microservice",
+  "version": "1.0.0",
+  "main": "server.js",
+  "repository": {
+    "url": "git@github.com:greg-harrison/fcc-file-metadata-microservice.git",
+    "type": "git"
+  },
+  "author": "Greg <harrison.greg.c@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.15.4",
+    "multer": "^1.3.0",
+    "pug": "^2.0.0-rc.3"
+  },
+  "devDependencies": {
+    "eslint": "^4.6.0",
+    "nodemon": "^1.11.0"
+  },
+  "scripts": {
+    "start": "nodemon server.js"
+  }
+}
