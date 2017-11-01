@@ -48,4 +48,6 @@ app.use((req, res) => {
   res.redirect('/uploader')
 })
 
-app.listen(8000)
+app.listen(8000, () => {
+    console.log('listening on localhost:8000');
+});
